@@ -1,0 +1,423 @@
+*, figure{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'ionicons';
+    src: url('fonts/ionicons.woff')format('woff');
+}
+@font-face {
+    font-family: 'ionicons2';
+    src: url('fonts/ionicons.woff2')format('woff2');
+}
+@font-face {
+    font-family: 'ionicons3';
+    src: url("fonts/ionicons.ttf")format('ttf');
+}
+nav{
+    font-family: 'ionicons2';
+}
+.nav-item{
+    margin: 0 5px;
+}
+.nav-link, .navbar-brand{
+    color: black;
+}
+.nav-item a:active{
+    color: #0f6674;
+}
+.download{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 30px;
+}
+.blueBackground{
+    background-color: #F0F5F9;
+
+}
+.topDiv{
+    width: 100%;
+    height: auto;
+}
+.topDiv .col{
+    margin: 60px;
+}
+.topImg{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.leftDiv{
+    padding: 50px;
+    margin-top: 90px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+}
+.rightDiv{
+    padding: 50px;
+    display: block;
+    margin: auto ;
+
+}
+#topP{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.leftDiv h2{
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.leftDiv small{
+    color: #6c757d;
+}
+
+.buttonSec1 button{
+    font-size: 15px;
+}
+p{
+    color: gray;
+}
+.section2{
+    margin: 120px 0 ;
+}
+
+.section2 h1{
+    font-weight: bolder;
+    color: #3B3B5D;
+}
+.section2 small{
+    color: #61B382;
+    font-weight: bold;
+}
+.section2Row2 p{
+    color: gray;
+    padding: 0 30px;
+}
+.section2 h4{
+    font-weight: bold;
+    padding: 0 30px;
+}
+/*#inside{*/
+/*    width: 50%;*/
+/*    margin: 0 10px 0 60px;*/
+/*}*/
+
+.section2Row2{
+    padding: 10px 30px 10px 30px;
+}
+.section2Col2{
+    width: 100px;
+    padding: 25px 0 ;
+    margin-right: 5px;
+}
+.section2Img{
+    width: 40%;
+    padding: 20px;
+}
+#pinkDiv{
+    background-color: #FFF1E4;
+}
+#grayDive{
+    background-color: #F2F4F5 ;
+}
+#blueDive{
+    background-color: #EAF2F8;
+}
+.section3{
+    display: block;
+    width: 80%;
+    margin: 50px auto 30px auto;
+}
+.section3Img{
+    width: 70%;
+}
+.section3Row1{
+    padding: 90px 30px;
+}
+.section3Col1{
+    padding-left: 100px
+}
+.section3Row1 ul {
+    list-style-type: none;
+}
+
+
+.section3Row1 ul li:before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+    background-image: url('/images/tik.png');
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.section3Col2{
+    margin-left: 30px
+}
+
+
+.section4{
+    display: inline-block;
+    width: 100%;
+    /*margin: 50px auto 30px auto;*/
+    text-align: center;
+}
+.section4 .row{
+    margin: 0;
+    width: 100%;
+}
+
+.section4 img{
+    width:20%;
+}
+.col-sm-4, .col-6, .section4Cols{
+    padding: 0;
+}
+#result{
+    color: #9FBFE5;
+    font-weight: bold;
+}
+
+.section4 h3{
+    padding-bottom:  30px ;
+    width: 70%;
+    margin: 10px auto 30px auto;
+
+}
+.section5{
+    display: flex;
+    width: 70%;
+    margin: 50px auto 30px auto;
+    text-align: left;
+    padding: 50px 30px 50px 30px;
+}
+
+.quoteImage{
+    float: left;
+    width: 40px;
+    margin: 10px;
+}
+
+.section5Col1{
+    margin-left: 40px;
+    padding: 40px;
+}
+.section5Col2{
+    margin: 10px 0 0 80px;
+    padding: 50px;
+}
+#DrName{
+    padding: 10px;
+}
+#img2{
+    flex-basis: 40%
+}
+#span1{
+    display: flex;
+    font-size: small;
+}
+#spam2{
+    color: #0d6efd;
+}
+.section6{
+    display: flex;
+    margin: 80px auto 50px auto;
+    text-align: center;
+    /*width: 40%;*/
+}
+.section6 img{
+    width: 50%;
+}
+.section6Row2{
+    margin: 10px auto 5px auto;
+    width: 100%;
+}
+
+.section6Col2{
+    width: 10%;
+    padding: 10px 0;
+    margin: 30px auto ;
+}
+
+.section6Col2 small{
+    color: #6c757d;
+}
+
+.section6Col2 p{
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 0 40px;
+}
+.section6Col2 button{
+    padding: 5px 30px;
+}
+#col1{
+    padding: 30px;
+    width: 50%;
+    float: right;
+}
+#col2{
+    padding: 30px;
+    width: 50%;
+    float: left;
+}
+.refund{
+    text-align: center;
+    color: #6c757d;
+    font: 12px ionicons ;
+}
+.section7{
+    display: block;
+    width: 70%;
+    margin: 50px auto 30px auto;
+    text-align: left;
+    padding: 70px;
+}
+.section7 p{
+    color: #1b1e21;
+}
+.section7 span{
+    display: inline-block;
+    position: absolute;
+    left: 90%;
+    font-weight: bold;
+}
+
+.section7Col1{
+    margin-bottom: 30px;
+}
+
+.section8{
+    display: block;
+    width: 70%;
+    margin: 50px auto 30px auto;
+    text-align: center;
+    padding: 70px;
+}
+.section8 p{
+    color: green;
+}
+.section8  h3{
+    font-weight: bold;
+    color: #3B3B5D;
+}
+.signupForm{
+    margin-top: 30px;
+}
+.signupForm input{
+    padding: 0 60px 0 10px ;
+    /*margin-top: 10px;*/
+    background-color:#F0F5F8;
+}
+.signupForm button{
+    margin: 10px 0;
+    padding:3px 10px;
+    width: 40%;
+}
+
+.socialIcon{
+    width: 20px;
+}
+footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+.buttonNav a{
+    color: black;
+    margin: 0 10px;
+}
+
+
+.socialNav a{
+    margin: 0 10px  ;
+}
+.socialNav a:link{
+    text-decoration: none;
+
+}
+
+@media (max-width: 730px) {
+
+    .rightDiv{
+        margin: -600px 0 0 0;
+    }
+    .leftDiv{
+        margin: 250px 0 5px 0;
+        text-align: center;
+    }
+    .topDiv img{
+        width: 100%;
+    }
+    .buttonSec1 button{
+        margin: 5px;
+    }
+    .section2{
+        margin: 50px auto;
+    }
+    .section3Row1{
+        text-align: center;
+    }
+    .section3Row1 h2{
+        font-size: 30px;
+        font-weight: 700;
+        color: #404364;
+    }
+    .section3Row1 p{
+        margin-left: 30px;
+        width: 80%;
+        font-size: 20px;
+    }
+    .section3Row1 ul li{
+        font-size: 20px;
+        color: #6c757d;
+        margin-bottom: 10px;
+        margin-left: -50px;
+    }
+
+    .section3Col2{
+        margin-top: 200px;
+    }
+    .section3Col3{
+        margin-top: -500px;
+    }
+    .section3Col1_1{
+        margin-top: 50px;
+    }
+    .buttonImg3{
+        margin-top:-700px ;
+        margin-bottom: 80px;
+    }
+    .section4 img{
+        width: 40%;
+    }
+    .section5Col2{
+        margin-left: 0;
+    }
+    #col1, #col2 {
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .refund{
+        font-size: 25px;
+    }
+    .footer .row{
+        margin: 10px auto;
+
+    }
+    .connect a{
+        margin: 0 40%;
+    }
+    .buttonNav{
+        margin: 0 20%;
+
+    }
+
+}
