@@ -294,30 +294,32 @@ p{
 
 .section8{
     display: block;
-    width: 70%;
     margin: 50px auto 30px auto;
     text-align: center;
     padding: 70px;
+}
+.section8Col1{
+    width: 10%;
 }
 .section8 p{
     color: green;
 }
 .section8  h3{
+    width: 50%;
+    margin: 0 auto 20px;
     font-weight: bold;
     color: #3B3B5D;
 }
-.signupForm{
-    margin-top: 30px;
+
+.form-group{
+    margin: 0 auto 20px auto;
 }
 .signupForm input{
-    padding: 0 60px 0 10px ;
-    /*margin-top: 10px;*/
     background-color:#F0F5F8;
 }
 .signupForm button{
     margin: 10px 0;
-    padding:3px 10px;
-    width: 40%;
+    padding:5px 20px;
 }
 
 .socialIcon{
@@ -328,6 +330,9 @@ footer{
     bottom: 0;
     width: 100%;
     padding: 10px;
+}
+.buttonNav{
+    margin: 0 auto;
 }
 .buttonNav a{
     color: black;
@@ -391,7 +396,7 @@ footer{
         margin-top: 50px;
     }
     .buttonImg3{
-        margin-top:-700px ;
+        margin-top:-900px ;
         margin-bottom: 80px;
     }
     .section4 img{
@@ -408,6 +413,23 @@ footer{
     .refund{
         font-size: 25px;
     }
+    .section8Col1 h3{
+        width: 100%;
+    }
+    .signupForm{
+        margin: 0 ;
+        padding: 0;
+    }
+    .form-inline{
+        padding-left: -200px;
+        margin: 0 auto 20px auto;}
+    .signupForm input button{
+        margin: 0;
+    }
+    .signupForm button{
+        /*margin: 10px 0;*/
+        /*padding:5px 5px;*/
+    }
     .footer .row{
         margin: 10px auto;
 
@@ -416,8 +438,12 @@ footer{
         margin: 0 40%;
     }
     .buttonNav{
-        margin: 0 20%;
-
+        margin:4px 40px;
+    }
+    .buttonNav a{
+        color: gray;
+        margin: 0 auto;
+        padding: 0 4px;
     }
 
 }
